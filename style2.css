@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(226, 221, 221);
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ul li:nth-child(even) {
+    background-color:aqua;
+}
+
+ul li:nth-child(odd) {
+    background-color:blue;
+}
+
+input[type='checkbox']:checked+label {
+    text-decoration: line-through;
+}
+input[type="checkbox"]:checked ~ label {
+    background-color:grey;
+}
+ul li span {
+    color: red;
+    margin-left: 15px;
+}
